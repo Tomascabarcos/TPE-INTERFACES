@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Ensigna games - Home</title>
+</head>
+<body>
+    <div class="container-loading">
+        <div class="porcentaje" >0%</div>
+        <div class="container-barra-progreso">
+            <p class="progreso" id="progresp" ></p>
+        </div>
+    </div>
+    <header>
+        <div class="logo-header">
+            <img src="images/logo.png" alt="Logo Ensigna games">
+        </div>
+        <div class="icono-avatar">
+            <button class="btn-menu">
+                <img class="img-avatar" src="images/avatar.jpg" alt="avatar.png">
+            </button>
+        </div>
+         
+        <div class="container-buscador">
+            <form class="buscador">
+                <input type="text" placeholder="¿A qué jugamos hoy?">
+                <button class="lupa"><img src="images/lupa.png" alt="Lupa"></button>
+            </form>
+        </div>
+        <div class="icono-carrito">
+            <button class="btn-menu">
+                <img src="images/carrito.png" alt="">
+            </button>
+        </div>
+   </header>
+    
+    <!--Menu desplegable-->
+   <div class="perfil menu">
+        <ul class="lista-perfil">
+            <hr class="division-menu">
+                <li class="txtbtn"><a href="#" class="btn-terciario">Perfil</a></li>
+                <li class="txtbtn"><a href="#" class="btn-terciario">Editar perfil</a></li>
+                <li class="txtbtn"><a href="#" class="btn-terciario">Mis juegos</a></li>
+                <li class="txtbtn"><a href="#" class="btn-terciario">Cerrar sesión</a></li>          
+            <hr class="division-menu">
+        </ul>
+    </div>
+   
+    <div class="carrito menu">
+        <h2 class="titulo-h2">Mi carrito</h2>
+        <hr class="division-menu">
+        <ul class="lista">
+            <li class="item">
+                <div class="card-carrito">
+                    <img class="img-carrito" src="images/jumpforce.png" alt="Jump force">
+                    <div class="info-carrito">
+                        <h3 class="titulo-h3">Jump Force</h3>
+                        <p class="txtbody">$3500</p>
+                    </div>
+                </div>
+                <img class="img-eliminar" src="images/eliminar.png" alt="eliminar.png">
+            </li>
+
+            <li class="item">
+                <div class="card-carrito">
+                    <img class="img-carrito" src="images/battlefield3.jpg" alt="Battlefield 3">
+                    <div class="info-carrito">
+                        <h3 class="titulo-h3">Battlefield 3</h3>
+                        <p class="txtbody">$2500</p>
+                    </div>
+                </div>               
+                <img class="img-eliminar" src="images/eliminar.png" alt="eliminar.png">
+            </li>
+
+            <li class="item">
+                <div class="card-carrito">
+                    <img class="img-carrito" src="images/fifa-23.jpg" alt="Fifa 23">
+                    <div class="info-carrito">
+                        <h3 class="titulo-h3">FIFA 23</h3>
+                        <p class="txtbody">$5000</p>
+                    </div>
+                </div>    
+                <img class="img-eliminar"src="images/eliminar.png" alt="eliminar.png">
+            </li>
+
+        </ul>
+        <hr class="division-menu">
+        <div class="carrito-precio">
+            <h3 class="titulo-h3">total</h3>
+            <h3 class="titulo-h3">$11.000</h3>
+        </div>
+        <div class="btn-carrito">
+            <button class="btn-primario txtbtn" type="button">Finalizar la compra</button>
+        </div>  
+    </div>
+    <!--Termina menu desplegable-->
+    <main>
+        <!--CARRUSEL--->
+        <div class="container-carrusel">
+            <h2 class="titulo-h2">Destacados</h2>
+            <div class="carrusel-destacado carrusel">
+                <div class="cards">
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Rayo vs Chick 4 en línea</h3>
+                        </div>
+                        <div class="etiqueta-gratis">
+                            <p class="txtetiqueta">Gratis</p>
+                        </div>
+                        <a href="juego.html"><img class="img-cards-destacados" src="images/rayovschick.png" alt="apex"></a>
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Battlefield 3</h3>
+                        </div>
+                        <div class="etiqueta-agregado">
+                            <p class="txtetiqueta">Agregado al carrito</p>
+                        </div>
+                        <img class="img-cards-destacados" src="images/battlefield3.jpg" alt="battlefield 3">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Marvel's Avengers</h3>
+                        </div>
+                        <div class="etiqueta-pago">
+                            <p class="txtetiqueta">$2000</p>
+                            <button class="btn-agregar txtbtn"><span>Agregar al carrito</span></button>
+                        </div>
+                        <img class="img-cards-destacados" src="images/avengers.png" alt="avengers">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Playerunknown’s Battlegrounds</h3>
+                        </div>
+                        <div class="etiqueta-pago">
+                            <p class="txtetiqueta">$5500</p>
+                            <button class="btn-agregar txtbtn"><span>Agregar al carrito</span></button>
+                        </div>
+                        <img class="img-cards-destacados" src="images/battleground.png" alt="battleground">
+                    </div>  
+
+                </div>
+                <div class="btns-carrusel atras">
+                  <p> &#60</p>
+                </div>
+                <div class="btns-carrusel adelante">
+                    <p>&#62</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-carrusel">
+            <h2 class="titulo-h2">Recomendados</h2>
+            <div class="carrusel-recomendado carrusel">
+                <div class="cards">
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">FIFA 23</h3>
+                        </div>
+                        <div class="etiqueta-agregado">
+                            <p class="txtetiqueta">Agregado al carrito</p>
+                        </div>
+                        <img class="img-cards-destacados" src="images/fifa-23.jpg" alt="Fifa 23">
+                    </div>
+                    
+                    <div class="cards-4-img">
+                       <div class="card-4-img">
+                            <div class="titulo-hover">
+                                <h3 class="titulo-h3">Assassin's creed Mirage</h3>
+                            </div>
+                            <div class="etiqueta-gratis">
+                                <p class="txtetiqueta">Gratis</p>
+                            </div>
+                            <img class="img-card-4" src="images/assassinscreed.jpg" alt="Assassin's creed Mirage">
+                        </div>
+                        <div class="card-4-img">
+                            <div class="titulo-hover">
+                                <h3 class="titulo-h3">Diablo IV</h3>
+                            </div>
+                            <div class="etiqueta-gratis">
+                                <p class="txtetiqueta">Gratis</p>
+                            </div>
+                            <img class="img-card-4" src="images/diabloiv.png" alt="Diablo IV"> 
+                        </div>
+
+                        <div class="card-4-img">
+                            <div class="titulo-hover">
+                                <h3 class="titulo-h3">WWE 2K23</h3>
+                            </div>
+                            <div class="etiqueta-gratis">
+                                <p class="txtetiqueta">Gratis</p>
+                            </div>
+                            <img class="img-card-4" src="images/w2k23.jpeg" alt="WWE 2K23">
+                        </div> 
+                        <div class="card-4-img"> 
+                            <div class="titulo-hover">
+                                <h3 class="titulo-h3">Grand Theft Auto V</h3>
+                            </div>
+                            <div class="etiqueta-gratis">
+                                <p class="txtetiqueta">Gratis</p>
+                            </div>    
+                            <img class="img-card-4" src="images/gtav.jpeg"  alt="Grand Theft Auto V">
+                        </div>
+                    </div>
+                
+                    
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Jump Force</h3>
+                        </div>
+                        <div class="etiqueta-agregado">
+                            <p class="txtetiqueta">Agregado al carrito</p>
+                        </div>
+                        <img class="img-cards-destacados" src="images/jumpforce.png" alt="Jump Force">
+                    </div>    
+                     
+                    <div class="cards-4-img">
+                        <div class="card-4-img">
+                             <div class="titulo-hover">
+                                 <h3 class="titulo-h3">Sekiro</h3>
+                             </div>
+                             <div class="etiqueta-gratis">
+                                 <p class="txtetiqueta">Gratis</p>
+                             </div>
+                             <img class="img-card-4" src="images/sekiro.jpeg" alt="sekiro">
+                         </div>
+                         <div class="card-4-img">
+                             <div class="titulo-hover">
+                                 <h3 class="titulo-h3">Street fighter</h3>
+                             </div>
+                             <div class="etiqueta-gratis">
+                                 <p class="txtetiqueta">Gratis</p>
+                             </div>
+                             <img class="img-card-4" src="images/streetfighter.jpeg" alt="streetfighter"> 
+                         </div>
+ 
+                         <div class="card-4-img">
+                             <div class="titulo-hover">
+                                 <h3 class="titulo-h3">Halo</h3>
+                             </div>
+                             <div class="etiqueta-gratis">
+                                 <p class="txtetiqueta">Gratis</p>
+                             </div>
+                             <img class="img-card-4" src="images/halo.jpeg" alt="halo">
+                         </div> 
+                         <div class="card-4-img"> 
+                             <div class="titulo-hover">
+                                 <h3 class="titulo-h3">God-of-war</h3>
+                             </div>
+                             <div class="etiqueta-gratis">
+                                 <p class="txtetiqueta">Gratis</p>
+                             </div>    
+                             <img class="img-card-4" src="images/godofwar.jpeg"  alt="godofwar">
+                         </div>
+                     </div>
+
+                     <div class="card card-mobile">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">GTA-V</h3>
+                        </div>
+                        <div class="etiqueta-pago">
+                            <p class="txtetiqueta">$6200</p>
+                            <button class="btn-agregar txtbtn"><span>Agregar al carrito</span></button>
+                        </div>
+                        <img class="img-cards-destacados" src="images/gtav.jpeg" alt="GTA-V">
+                    </div>
+                    <div class="card card-mobile">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">W2k23</h3>
+                        </div>
+                        <div class="etiqueta-pago">
+                            <p class="txtetiqueta">$1200</p>
+                            <button class="btn-agregar txtbtn"><span>Agregar al carrito</span></button>
+                        </div>
+                        <img class="img-cards-destacados" src="images/w2k23.jpeg" alt="w2k23">
+                    </div>   
+                     
+                </div>
+                <div class="btns-carrusel atras">
+                    <p> &#60</p>
+                </div>
+                <div class="btns-carrusel adelante">
+                    <p>&#62</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-carrusel">
+            <h2 class="titulo-h2">Acción</h2>
+            <div class="carrusel-categorias carrusel">
+                <div class="cards">
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Call of Duty: Modern Warfare</h3>
+                        </div>
+                        <div class="etiqueta-gratis">
+                            <p class="txtetiqueta">Gratis</p>
+                        </div>
+                        <img class="img-cards" src="images/cod.png" alt="call of duty">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Dragon Ball Z: Kakarot</h3>
+                        </div>
+                        <div class="etiqueta-pago">
+                            <p class="txtetiqueta">$800</p>
+                            <button class="btn-agregar txtbtn"><span>Agregar al carrito</span></button>
+                        </div>
+                        <img class="img-cards" src="images/dbz.jpg" alt="dragon ball z: kakar">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Mario Kart 8: Deluxe</h3>
+                        </div>
+                        <div class="etiqueta-gratis">
+                            <p class="txtetiqueta">Gratis</p>
+                        </div>
+                        <img class="img-cards" src="images/mariokart.png" alt="Mario kart 8 deluxe">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Terraria</h3>
+                        </div>
+                        <div class="etiqueta-gratis">
+                            <p class="txtetiqueta">Gratis</p>
+                        </div>
+                        <img class="img-cards" src="images/terraria.jpg" alt="terraria">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Castle Crashers remastered</h3>
+                        </div>
+                        <div class="etiqueta-gratis">
+                            <p class="txtetiqueta">Gratis</p>
+                        </div>
+                        <img class="img-cards" src="images/castlecrashers.jpeg" alt="Castle crashers remastered">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Apex Legends</h3>
+                        </div>
+                        <div class="etiqueta-gratis">
+                            <p class="txtetiqueta">Gratis</p>
+                        </div>
+                        <img class="img-cards" src="images/apex.jpg" alt="Apex legends">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Rocket league</h3>
+                        </div>
+                        <div class="etiqueta-gratis">
+                            <p class="txtetiqueta">Gratis</p>
+                        </div>
+                        <img class="img-cards" src="images/rocketleague.jpg" alt="Rocket-league">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Ratchet & Clank</h3>
+                        </div>
+                        <div class="etiqueta-gratis">
+                            <p class="txtetiqueta">Gratis</p>
+                        </div>
+                        <img class="img-cards" src="images/ratchetclank.jpeg" alt="Ratchet & Clank">
+                    </div>
+
+                </div>
+                <div class="btns-carrusel atras">
+                    <p> &#60</p>
+                </div>
+                <div class="btns-carrusel adelante">
+                      <p>&#62</p>
+                </div>
+            </div>
+        </div>        
+        
+        <div class="container-carrusel">
+            <h2 class="titulo-h2">Aventura</h2>
+            <div class="carrusel-categorias carrusel">
+                <div class="cards">
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Unravel two</h3>
+                        </div>
+                        <div class="etiqueta-pago">
+                            <p class="txtetiqueta">$1850</p>
+                            <button class="btn-agregar txtbtn"><span>Agregar al carrito</span></button>
+                        </div>
+                        <img class="img-cards" src="images/unravel.png" alt="Unravel two">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Farcry 4</h3>
+                        </div>
+                        <div class="etiqueta-gratis">
+                            <p class="txtetiqueta">Gratis</p>
+                        </div>
+                        <img class="img-cards" src="images/farcry.png" alt="Farcry 4">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Horizon: Forbidden West</h3>
+                        </div>
+                        <div class="etiqueta-pago">
+                            <p class="txtetiqueta">$4350</p>
+                            <button class="btn-agregar txtbtn"><span>Agregar al carrito</span></button>
+                        </div>
+                        <img class="img-cards" src="images/horizon.jpg" alt="Horizon Forbidden West">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Sonic mania</h3>
+                        </div>
+                        <div class="etiqueta-pago">
+                            <p class="txtetiqueta">$560</p>
+                            <button class="btn-agregar txtbtn"><span>Agregar al carrito</span></button>
+                        </div>
+                        <img class="img-cards" src="images/sonic.jpg" alt="Sonic mania">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Fortnite</h3>
+                        </div>
+                        <div class="etiqueta-pago">
+                            <p class="txtetiqueta">$1240</p>
+                            <button class="btn-agregar txtbtn"><span>Agregar al carrito</span></button>
+                        </div>
+                        <img class="img-cards" src="images/fortnite.jpg" alt="Fornite">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Silent Hill 2</h3>
+                        </div>
+                        <div class="etiqueta-gratis">
+                            <p class="txtetiqueta">Gratis</p>
+                        </div>
+                        <img class="img-cards" src="images/silent-hill.jpg" alt="Silent hill 2">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Valorant</h3>
+                        </div>
+                        <div class="etiqueta-pago">
+                            <p class="txtetiqueta">$2890</p>
+                            <button class="btn-agregar txtbtn"><span>Agregar al carrito</span></button>
+                        </div>
+                        <img class="img-cards" src="images/valorant.jpg" alt="Valorant">
+                    </div>
+
+                    <div class="card">
+                        <div class="titulo-hover">
+                            <h3 class="titulo-h3">Hogwarts Legacy</h3>
+                        </div>
+                        <div class="etiqueta-gratis">
+                            <p class="txtetiqueta">Gratis</p>
+                        </div>
+                        <img class="img-cards" src="images/harrypotter.jpeg" alt="Hogwarts Legacy">
+                    </div>
+                </div>
+                <div class="btns-carrusel atras">
+                    <p> &#60</p>
+                </div>
+                <div class="btns-carrusel adelante">
+                      <p>&#62</p>
+                </div>
+            </div>
+        </div>
+    </main>    
+    <footer>
+        <div class="footer-info">
+            <div class="lista-footer">
+                    <h3 class="titulo-h3">Compañía</h3>
+                    <ul>
+                        <li><a href="" class="txtbtn btn-terciario">Acerca de</a></li>
+                        <li><a href="" class="txtbtn btn-terciario">Blog</a></li>
+                        <li><a href="" class="txtbtn btn-terciario">Contactanos</a></li>
+                    </ul>
+            </div>
+            <div class="lista-footer">
+                <h3 class="titulo-h3">Soporte</h3>
+                <ul>
+                    <li><a href="" class="txtbtn btn-terciario">Centro de ayuda</a></li>
+                    <li><a href="" class="txtbtn btn-terciario">Enviar un juego</a></li>
+                    <li><a href="" class="txtbtn btn-terciario">Reportar un juego</a></li>
+                </ul>
+            </div>
+            <div class="lista-footer">
+                <h3 class="titulo-h3">Privacidad y términos</h3>
+                <ul>
+                    <li><a href="" class="txtbtn btn-terciario">Términos de usos</a></li>
+                    <li><a href="" class="txtbtn btn-terciario">Políticas de privacidad</a></li>
+                    <li><a href="" class="txtbtn btn-terciario">Política de devoluciones</a></li>
+                </ul>
+            </div>
+        </div>
+       <hr class="linea-divisoria">
+       <div class="redes-footer">
+            <ul>
+                <li><a href="http://" target="_blank" class="icono-footer"><img src="images/icono-ig.png" alt="Icono Instagram"></a></li>
+                <li><a href="http://" target="_blank" class="icono-footer"><img src="images/icono-twitter.png" alt="Icono Twitter"></a></li>
+                <li><a href="http://" target="_blank" class="icono-footer"><img src="images/icono-whatsapp.png" alt="Icono Whatsapp"></a></li>
+                <li><a href="http://" target="_blank" class="icono-footer"><img src="images/icono-skype.png" alt="Icono Skype"></a></li>
+            </ul>
+       </div>
+    </footer>
+    <script type="text/javascript" src="js/loading.js"></script>
+    <script type="text/javascript" src="js/main.js"></script> 
+</body>
+</html>
+
