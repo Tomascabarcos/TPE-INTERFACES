@@ -1,0 +1,168 @@
+body{
+    background-color: #1E0045;   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container-logo{
+    margin-top: 50px;
+}
+
+.logo{
+    width: 250px;
+    height: 78px;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 595px;
+    background-color: #37007B;
+    box-shadow: var(--elevacion1);
+}
+
+.titulo-form{
+    margin-top: 60px;
+}
+
+.form {
+   margin: 40px 175px 21px 175px;  
+}
+
+.input-grande{
+    width: 250px;
+    height: 30px;
+    margin-top: 2px;
+    background-color: #9747FF;
+    border: none;
+    border-radius: 3px;
+}
+
+
+/*empieza registrarse*/
+.form-registro{
+    margin: 30px 175px 21px 175px;
+}
+
+.form-box-registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 955px;
+    margin-top: 20px;
+    background-color: #37007B;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 0px;
+}
+
+.chico{
+    display: flex;
+    flex-direction: column;
+}
+.input-chico{
+    width: 100px;
+    height: 30px;
+    margin-top: 2px;
+    background-color: #9747FF;
+    border: none;
+    border-radius: 3px;
+}
+
+.recaptcha{
+    width: 250px;
+}
+
+/*termina registrarse*/
+
+.division-form{
+    width: 250px;
+    height: 13px;
+}
+
+
+
+.btn-primario, .btn-redes, .input-form, .form-box{
+    margin-top: 20px;
+}
+
+.btn-redes{
+    background: transparent;
+    border: none;
+
+}
+
+.registrarse{
+    margin-top: 30px;
+}
+
+.registrarse a{
+    text-decoration: none;
+}
+
+.input-form span {
+    color: var(--peligro);
+}
+
+.form-box{
+    margin-bottom: 60px;
+}
+
+.btn-redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-sesion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img-btn{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.btn-terciario{
+    margin-left: 5px;
+}
+
+.btn-login ,.btn-registrarse{
+    cursor: pointer;
+}
+
+.exito{
+    display: none;
+    margin-top: 10px; 
+}
+
+.btn-sesion .exito.tilde{
+    display: flex;
+}
+
+.tilde-img {
+    width: 50px;
+    height: 50px;   
+}
+
+.btn-redes {
+    cursor: pointer;
+}
+
+
+
+
+
